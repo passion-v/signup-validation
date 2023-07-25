@@ -1,0 +1,35 @@
+.signup-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+
+  &-subtitle {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  &-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  &-content {
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+    }
+  }
+
+  &-action {
+    padding: 16px;
+  }
+
+  &-control {
+    width: 100%;
+  }
+}
